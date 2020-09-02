@@ -15,3 +15,11 @@ Here are some useful resources for getting started:
 # Example service worker file
 
 See `service-worker.js` for an example service worker that uses Workbox.
+
+# Other example files
+
+See `index.html` for a simple root page that registers the service worker on load.
+
+See `manifest.json` for an example PWA manifest file to enable A2HS (add to homescreen).
+
+See `workbox-config.js` for an example config file for the Workbox CLI - Note: you'll need to fix the paths in here.
