@@ -1,0 +1,43 @@
+{
+  "name": "PWA Example",
+  "short_name": "PWA Example",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/icon/example-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icon/example-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create a Recipe",
+      "short_name": "Create Recipe",
+      "description": "Add a new recipe",
+      "url": "/#/edit-recipe/new?utm_source=homescreen"
+    },
+    {
+      "name": "My Shopping Lists",
+      "short_name": "Shopping Lists",
+      "description": "Open your shopping lists",
+      "url": "/#/shopping-lists?utm_source=homescreen"
+    },
+    {
+      "name": "My Meal Plans",
+      "short_name": "Meal Plans",
+      "description": "Open your meal plans",
+      "url": "/#/meal-planners?utm_source=homescreen"
+    }
+  ],
+  "background_color": "#353b48",
+  "theme_color": "#353b48",
+  "gcm_sender_id": "103953800507"
+}
